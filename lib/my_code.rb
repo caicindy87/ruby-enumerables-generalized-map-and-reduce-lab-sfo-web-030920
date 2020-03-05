@@ -20,6 +20,7 @@ def reduce(array, starting_value = nil)
   
   while index < array.length do
     total = yield(total, array[index])
+    index += 1
   end
   total
 end
