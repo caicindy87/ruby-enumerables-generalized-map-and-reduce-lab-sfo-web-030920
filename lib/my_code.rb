@@ -19,11 +19,3 @@ def reduce(array, starting_point = nil)
   total
 end
 
-
-# def reduce(array, starting_value = nil)
-#   index = 0
-#   while index < array.length do
-#     if yield(array[index])
-#     index += 1
-#   end
-# end
