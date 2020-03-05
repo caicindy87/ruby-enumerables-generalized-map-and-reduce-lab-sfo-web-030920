@@ -10,10 +10,10 @@ def map(array)
 end
 
 def reduce(array, starting_value = 0)
-  total = 0
+  total += starting_value
   index = 0
   while index < array.length do
-    total += yield(array[index], *starting_value)
+    total += yield(array[index])
     index += 1
   end
   total
