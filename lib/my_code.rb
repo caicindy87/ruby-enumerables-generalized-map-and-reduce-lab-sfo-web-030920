@@ -23,7 +23,7 @@ end
 def reduce(array, starting_value = 0)
   index = 0
   while index < array.length do
-    
+    if yield(array[index])
     index += 1
   end
 end
