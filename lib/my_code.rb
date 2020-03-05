@@ -19,7 +19,7 @@ def reduce(array, starting_value = nil)
   end
   
   while index < array.length do
-    yield(total, array[index])
+    total = yield(total, array[index])
   end
 end
 
