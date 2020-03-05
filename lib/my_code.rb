@@ -15,7 +15,11 @@ def reduce(array, starting_value = nil)
     index = 0
   else
     num1 = array[0]
-    i = 1
+    index = 1
+  end
+  
+  while index < array.length do
+    yield(num1)
   end
 end
 
