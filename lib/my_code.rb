@@ -10,7 +10,7 @@ def map(array)
 end
 
 def reduce(array, starting_value = 0)
-  total += starting_value
+  total = 0 + starting_value
   index = 0
   while index < array.length do
     total += yield(array[index])
