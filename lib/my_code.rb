@@ -20,3 +20,10 @@ def reduce(array, starting_value = 0)
 end
 
 
+def reduce(array, starting_value = 0)
+  index = 0
+  while index < array.length do
+    
+    index += 1
+  end
+end
